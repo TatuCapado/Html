@@ -97,6 +97,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Nícolas Suzigan 👋🏽 [Entre em contato!](https://www.linkedin.com/in/nicolassuzigan/)
+Feito com ❤️ por Denilson
 
 ---
