@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site da Pizzaria">
+    <meta name="keywords" content="Pizza, Pedido online">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+
+
+    <title>Pizzaria</title>
+</head>
+
+<body>
+    <header>
+        <a class="brand" href="index.html">Pizzaria</a>
+        <nav class="navbar">
+            <button class="navbar__nav-button">&#9776;</button>
+            <ul class="navbar__nav-list">
+                <li class="nav-list__item"><a href="index.html">Home</a></li>
+                <li class="nav-list__item"><a href="quemsomos.html">Sobre</a></li>
+                <li class="nav-list__item"><a href="precos.html">Preços</a></li>
+                <li class="nav-list__item"><a href="/Denilson/php/index.php">Pedido</a></li>
+                <li class="nav-list__item"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+
+            <h2 class="title">Pizzas Prontas</h2>
+            <table class="price-table">
+                <tr class="price-table__header">
+                    <th>Sabor</th>
+                    <th>Ingredientes</th>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Pizza de Calabresa c/ Catupiry</td>
+                    <td>Calabresa, Queijo, Cebola e Catupiry</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Pizza de frango</td>
+                    <td>Frango, Queijo e Catupiry</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Pizza de Brócolis com bacon</td>
+                    <td>Bacon, Brócolis, Catupiry e Queijo</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Pizza Light</td>
+                    <td>Abobrinha, Frango e Ovo</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Pizza de Catupiry</td>
+                    <td>Catupiry</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Pizza de Queijo</td>
+                    <td>Queijo</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Pizza de Chocolate com Morango</td>
+                    <td>M&M, Chocolate, Morango</td>
+                </tr>
+            </table>
+
+            <h2 class="title">Ingredientes adicionais</h2>
+            <table class="price-table">
+                <tr class="price-table__header">
+                    <th>Ingrediente adicionais</th>
+                    <th>Preço</th>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Abobrinha</td>
+                    <td>R$ 3,50</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Bacon</td>
+                    <td>R$ 8,25</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Brócolis</td>
+                    <td>R$ 5,20</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Calabresa</td>
+                    <td>R$ 7,50</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Catupiry</td>
+                    <td>R$ 5,50</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Cebola</td>
+                    <td>R$ 4,99</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Frango</td>
+                    <td>R$ 6,50</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Ovo</td>
+                    <td>R$ 3,99</td>
+                </tr>
+                <tr class="price-table__body">
+                    <td>Queijo</td>
+                    <td>R$ 6,50</td>
+                </tr>
+            </table>
+        </main>
+
+        <aside class="promotion">
+            <h2 class="promotion__title">Não perca seu tempo!</h2>
+            <img class="promotion__icon" src="assets/images/logo.png" alt="Icone de uma fatia de pizza">
+            <p class="promotion__description">A melhor pizza da região você encontra aqui!</p>
+
+            <a href="/Denilson/php/index.php" class="btn--red promotion__btn">Faça seu pedido</a>
+        </aside>
+    </div>
+
+
+
+    <footer>
+        <div class="footer__group">
+            <div class="contact">
+                <ul class="phones">
+                    <li><img class="footer-icon" src="assets/images/whatsapp.png" alt="Logo do Whatsapp">(19) 99999 -
+                        9999</li>
+                    <li><img class="footer-icon" src="assets/images/phone-receiver-silhouette.png"
+                            alt="Imagem de um telefone">(19) 3333 - 3333</li>
+                </ul>
+
+                <ul class="social-media">
+                    <li><a href="https://www.instagram.com/"><img class="footer-icon" src="assets/images/instagram.png"
+                                alt="Logo do Instagram"></a></li>
+                    <li><a href="https://www.facebook.com/"><img class="footer-icon" src="assets/images/facebook.png"
+                                alt="Logo do Facebook"></a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <p>Rua das Placas mãe, nº 255</p>
+                <p>Bairro das Processadores</p>
+                <p>Arduino city - Carioca RJ</p>
+            </div>
+        </div>
+
+        <a href="./php/admin/index.php" class="btn btn-primary" style="color: #ff0000; background-color: #ff0000;">Logar</a>
+
+
+        <div>Todos os direitos a Denilson </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

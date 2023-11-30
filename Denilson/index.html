@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site da Pizzaria">
+    <meta name="keywords" content="Pizza, Pedido online">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Pizzaria</title>
+</head>
+
+<body>
+    <header>
+        <a class="brand" href="index.html">Pizzaria</a>
+        <nav class="navbar">
+            <button class="navbar__nav-button">&#9776;</button>
+            <ul class="navbar__nav-list">
+                <li class="nav-list__item"><a href="index.html">Home</a></li>
+                <li class="nav-list__item"><a href="quemsomos.html">Sobre</a></li>
+                <li class="nav-list__item"><a href="precos.html">Preços</a></li>
+                <li class="nav-list__item"><a href="/Denilson/php/index.php">Pedido</a></li>
+                <li class="nav-list__item"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img class="home-image" src="assets/images/pizzaMain.jpg" alt="Foto de uma pizza">
+            <br>
+            <p class="legend__text">Da nossa batata gamer direto para sua mesa</p>
+            <a href="/Denilson/php/index.php" class="btn--red legend__btn">Faça seu pedido</a>
+        </div>
+        <main>
+            <div class="main__about">
+                <h1 class="title">Nossa História</h1>
+                <p>A Pizzaria Planetário deu início as suas atividades em 1997 na cidade de Mogi-Mirim. Quando três
+                    irmãos resolveram montar um negócio próprio cujo segmento seria alimentação. A escolha do nome foi
+                    posto em discussão, dentre outros tantos teria ficaram para final os nomes: Planeta, Espaço Livre,
+                    Planetário que colocados em votação o vencedor por unanimidade foi o Planetário.
+
+                    Passado mais ou menos de um ano da inauguração a sociedade foi desfeita e cada um dos três irmãos
+                    seguiram um ramo diferente. O Planetário foi transferido para Mogi-Guaçu, onde suas atividades
+                    passaria a ser somente disk entrega. Situado inicialmente no jardim progresso começou a atender os
+                    bairros próximos ao jardim progresso e trazendo a qualidade de nossas pizzas aliadas ao preço baixo
+                    não tardou para que conquistássemos muitos clientes e amigos até o ponto de ter que mudar as suas
+                    instalações para um lugar maior e mais confortável. </p>
+                </p>
+                <a href="quemsomos.html" class="btn--red about__btn">Saiba mais</a>
+            </div>
+        </main>
+
+        <aside class="promotion">
+            <h2 class="promotion__title">Não perca seu tempo!</h2>
+            <img class="promotion__icon" src="assets/images/logo.png" alt="Icone de uma fatia de pizza">
+            <p class="promotion__description">A melhor pizza da região você encontra aqui!</p>
+
+            <a href="/Denilson/php/index.php" class="btn--red promotion__btn">Faça seu pedido</a>
+        </aside>
+    </div>
+
+
+    <footer>
+        <div class="footer__group">
+            <div class="contact">
+                <ul class="phones">
+                    <li><img class="footer-icon" src="assets/images/whatsapp.png" alt="Logo do Whatsapp">(19) 99999 -
+                        9999</li>
+                    <li><img class="footer-icon" src="assets/images/phone-receiver-silhouette.png"
+                            alt="Imagem de um telefone">(19) 3333 - 3333</li>
+                </ul>
+
+                <ul class="social-media">
+                    <li><a href="https://www.instagram.com/"><img class="footer-icon" src="assets/images/instagram.png"
+                                alt="Logo do Instagram"></a></li>
+                    <li><a href="https://www.facebook.com/"><img class="footer-icon" src="assets/images/facebook.png"
+                                alt="Logo do Facebook"></a></li>
+                </ul>
+            </div>
+
+            <div class="address">
+                <p>Rua das Placas mãe, nº 255</p>
+                <p>Bairro das Processadores</p>
+                <p>Arduino city - Carioca RJ</p>
+            </div>
+        </div>
+
+        <a href="./php/admin/index.php" class="btn btn-primary" style="color: #ff0000; background-color: #ff0000;">Logar</a>
+
+
+        <div>Todos os direitos a Denilson </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
